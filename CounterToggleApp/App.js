@@ -25,15 +25,16 @@ export default function App() {
         <Text>{isVisible ? "Hide text" : "Show Text"}</Text>
       </TouchableOpacity>
 
+  
       <TextInput
         value={name}
         onChangeText={setName}
         placeholder='Enter Your Name'
         
       />
-
+    
       <TouchableOpacity style={styles.btn} onPress={() => setGreeting(`Namaste, ${name}! 👋`)}>
-        <Text style={styles.btnText}>👋</Text>
+        <Text style={styles.btnText}>Submit</Text>
       </TouchableOpacity>
 
       {greeting ? <Text style={styles.toggleText}>{greeting}</Text> : null}

@@ -1,8 +1,10 @@
 # Node modules — kabhi push mat karo, bahut bada hota hai
 node_modules/
+**/node_modules/
 
 # Expo
 .expo/
+**/.expo/
 dist/
 web-build/
 
