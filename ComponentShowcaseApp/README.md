@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# 📱 ComponentShowcaseApp — Day 4
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Interactive showcase application demonstrating React Native's Core Components, touch handling, and mobile form mechanics.
 
-## Get started
+---
 
-1. Install dependencies
+## 📚 Day 4 Topics Covered
+- **`TextInput`** — Controlled state binding, email keyboard types, secure password masking, multiline textareas.
+- **`Image`** — Remote network images (`{ uri: '...' }`), `resizeMode` variations (`cover`, `contain`), and border radiuses.
+- **`Modal`** — Popups with animated transitions (`slide`), semi-transparent backdrop overlays (`rgba(0,0,0,0.55)`), and Android hardware back button handler (`onRequestClose`).
+- **`Alert`** — Native OS dialogs with multi-button arrays and `style: 'destructive'` styling.
+- **`ActivityIndicator`** — Asynchronous simulated loading spinner inside buttons.
+- **`KeyboardAvoidingView` & `ScrollView`** — Keyboard offset handling, safe insets, and smooth scrolling without gesture collisions.
+- **`Pressable`** — Modern touchable wrapper with state feedback.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Features Built
+| Feature | Implementation Details |
+|---|---|
+| **User Profile Form** | Name, Email (`keyboardType="email-address"`), Password (`secureTextEntry` + Show/Hide toggle), and Bio textarea (`multiline`, `maxLength={120}`). |
+| **Simulated API Loader** | 2-second loading delay disabling button and spinning `ActivityIndicator`. |
+| **Confirmation Alerts** | Success alert and destructive Reset form confirmation dialog. |
+| **Profile Card Modal** | Slide-up modal displaying entered user details. |
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 How to Run
 
 ```bash
-npm run reset-project
+cd ComponentShowcaseApp
+npm install
+npx expo start
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

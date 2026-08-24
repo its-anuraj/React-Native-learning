@@ -6,23 +6,23 @@
 
 ## 📅 Progress Tracker
 
-| Day | Topics | App | Status |
-|-----|--------|-----|--------|
-| 1 | JSX, Components, Props | Profile Card App | ✅ Done |
-| 2 | State, useState, Events | Counter + Toggle App | 🔜 |
-| 3 | useEffect, Lifecycle | Timer + API Loader App | 🔜 |
-| 4 | Core RN Components | Component Showcase App | 🔜 |
-| 5 | Styling + Flexbox | Layout Designer App | 🔜 |
-| 6 | FlatList + SectionList | Contact Book App | 🔜 |
-| 7 | React Navigation (Stack + Tab) | 3-Screen Navigation App | 🔜 |
-| 8 | Navigation (Drawer + Params) | Product Menu App | 🔜 |
-| 9 | API Integration (Axios) | Posts Manager App | 🔜 |
-| 10 | Custom Hooks + useRef + useMemo | Smart Search App | 🔜 |
-| 11 | Context API + Global State | Shopping Cart App | 🔜 |
-| 12 | AsyncStorage + Forms | Notes Saver App | 🔜 |
-| 13 | Authentication Flow | Login → Home Flow App | 🔜 |
-| 14 | Animations | Animated Cards App | 🔜 |
-| 15 | Performance + Build + Revision | Final Review | 🔜 |
+| Day | Topics | App Folder | Status |
+|:---:|:-------|:-----------|:------:|
+| **1** | JSX, Components, Props | [ProfileCardApp](./ProfileCardApp) | ✅ Done |
+| **2** | State, useState, Event Handling | [CounterToggleApp](./CounterToggleApp) | ✅ Done |
+| **3** | useEffect, Lifecycle, APIs | [TimerApiLoaderApp](./TimerApiLoaderApp) | ✅ Done |
+| **4** | Core RN Components (TextInput, Modal, Alert, Images) | [ComponentShowcaseApp](./ComponentShowcaseApp) | ✅ Done |
+| **5** | Styling + Flexbox & Dimensions | Layout Designer App | 🔜 Next |
+| **6** | FlatList + SectionList | Contact Book App | 🔜 |
+| **7** | React Navigation (Stack + Tab) | 3-Screen Navigation App | 🔜 |
+| **8** | Navigation (Drawer + Params) | Product Menu App | 🔜 |
+| **9** | API Integration (Axios) | Posts Manager App | 🔜 |
+| **10** | Custom Hooks + useRef + useMemo | Smart Search App | 🔜 |
+| **11** | Context API + Global State | Shopping Cart App | 🔜 |
+| **12** | AsyncStorage + Forms | Notes Saver App | 🔜 |
+| **13** | Authentication Flow | Login → Home Flow App | 🔜 |
+| **14** | Animations | Animated Cards App | 🔜 |
+| **15** | Performance + Build + Revision | Final Review | 🔜 |
 
 ---
 
@@ -30,12 +30,13 @@
 
 ```
 RN_Learning/
-├── Day01_ProfileCardApp/    ← JSX, Components, Props
-├── Day02_CounterApp/        ← State, useState, Events
-├── ...
-├── 15_Day_Plan_Part1.md     ← Learning plan (Day 1-8)
-├── 15_Day_Plan_Part2.md     ← Learning plan (Day 9-15)
-└── React_Native_Topics.md   ← Complete RN topics reference
+├── ProfileCardApp/          ← Day 1: JSX, Components, Props
+├── CounterToggleApp/        ← Day 2: State, useState, Events, Color Toggle
+├── TimerApiLoaderApp/       ← Day 3: useEffect, Stopwatch, API Loader, Live Clock
+├── ComponentShowcaseApp/    ← Day 4: TextInput, Modal, Alert, ActivityIndicator, KeyboardAvoidingView
+├── 15_Day_Plan_Part1.md     ← Detailed Syllabus (Day 1-8)
+├── 15_Day_Plan_Part2.md     ← Detailed Syllabus (Day 9-15)
+└── React_Native_Topics.md   ← Complete RN Topics Reference
 ```
 
 ---
@@ -43,27 +44,28 @@ RN_Learning/
 ## 🚀 How to Run Any App
 
 ```bash
-# Navigate to the day's folder
-cd Day01_ProfileCardApp
+# Navigate to the specific day's folder
+cd ComponentShowcaseApp
 
 # Install dependencies (first time only)
 npm install
 
-# Start the app
+# Start the Expo development server
 npx expo start
 
-# Then scan QR code with Expo Go app on your phone
+# Then scan the QR code with Expo Go on your mobile device
 ```
 
 ---
 
-## 📱 Tools Used
+## 📱 Tools & Tech Stack
 
-- **Expo** — React Native development platform
-- **Expo Go** — Run app on physical device (no build needed)
-- **VS Code** — Code editor
-- **GitHub** — Daily code pushes
+- **React Native (v0.81+)** — Core mobile framework
+- **Expo (v54+)** — Universal development platform & Expo Router
+- **Expo Go** — Live physical device testing
+- **TypeScript / JavaScript** — Type-safe component development
+- **Git & GitHub** — Version control & daily progress tracking
 
 ---
 
-*Learning React Native one day at a time! 🚀*
+*Learning React Native step-by-step with practical real-world apps! 🚀*
