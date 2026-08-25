@@ -13,8 +13,8 @@
 | **3** | useEffect, Lifecycle, APIs | [TimerApiLoaderApp](./TimerApiLoaderApp) | ✅ Done |
 | **4** | Core RN Components (TextInput, Modal, Alert, Images) | [ComponentShowcaseApp](./ComponentShowcaseApp) | ✅ Done |
 | **5** | Styling + Flexbox & Dimensions | [LayoutDesignerApp](./LayoutDesignerApp) | ✅ Done |
-| **6** | FlatList + SectionList | Contact Book App | 🔜 Next |
-| **7** | React Navigation (Stack + Tab) | 3-Screen Navigation App | 🔜 |
+| **6** | FlatList + SectionList | [ContactBookApp](./ContactBookApp) | ✅ Done |
+| **7** | React Navigation (Stack + Tab) | 3-Screen Navigation App | 🔜 Next |
 | **8** | Navigation (Drawer + Params) | Product Menu App | 🔜 |
 | **9** | API Integration (Axios) | Posts Manager App | 🔜 |
 | **10** | Custom Hooks + useRef + useMemo | Smart Search App | 🔜 |
@@ -35,6 +35,7 @@ RN_Learning/
 ├── TimerApiLoaderApp/       ← Day 3: useEffect, Stopwatch, API Loader, Live Clock
 ├── ComponentShowcaseApp/    ← Day 4: TextInput, Modal, Alert, ActivityIndicator, KeyboardAvoidingView
 ├── LayoutDesignerApp/       ← Day 5: Flexbox, Grid, Responsive Dimensions, Platform Styles
+├── ContactBookApp/          ← Day 6: FlatList, SectionList, Search Filter, Pull-to-Refresh
 ├── 15_Day_Plan_Part1.md     ← Detailed Syllabus (Day 1-8)
 ├── 15_Day_Plan_Part2.md     ← Detailed Syllabus (Day 9-15)
 └── React_Native_Topics.md   ← Complete RN Topics Reference
